@@ -1,0 +1,15 @@
+@Library('SharedContent')
+
+node{
+
+stage('ONE'){
+
+ echo "inside stage"
+ helloworld()
+ 
+ echo "after helloworld"
+
+}
+
+
+}
